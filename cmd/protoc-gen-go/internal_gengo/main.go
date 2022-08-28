@@ -66,7 +66,7 @@ type goImportPath interface {
 
 // GenerateFile generates the contents of a .pb.go file.
 func GenerateFile(gen *protogen.Plugin, file *protogen.File) *protogen.GeneratedFile {
-	filename := file.GeneratedFilenamePrefix + ".pb.go"
+	filename := file.GeneratedFilenamePrefix + ".component.go"
 	g := gen.NewGeneratedFile(filename, file.GoImportPath)
 	f := newFileInfo(file)
 

@@ -1,4 +1,4 @@
-module google.golang.org/protobuf
+module github.com/seeflood/protobuf-go
 
 go 1.11
 

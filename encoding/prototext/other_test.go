@@ -7,17 +7,17 @@ package prototext_test
 import (
 	"testing"
 
-	"google.golang.org/protobuf/encoding/prototext"
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protoregistry"
+	"github.com/seeflood/protobuf-go/encoding/prototext"
+	"github.com/seeflood/protobuf-go/proto"
+	"github.com/seeflood/protobuf-go/reflect/protoregistry"
 
-	pb2 "google.golang.org/protobuf/internal/testprotos/textpb2"
-	"google.golang.org/protobuf/types/known/anypb"
-	"google.golang.org/protobuf/types/known/durationpb"
-	"google.golang.org/protobuf/types/known/emptypb"
-	"google.golang.org/protobuf/types/known/structpb"
-	"google.golang.org/protobuf/types/known/timestamppb"
-	"google.golang.org/protobuf/types/known/wrapperspb"
+	pb2 "github.com/seeflood/protobuf-go/internal/testprotos/textpb2"
+	"github.com/seeflood/protobuf-go/types/known/anypb"
+	"github.com/seeflood/protobuf-go/types/known/durationpb"
+	"github.com/seeflood/protobuf-go/types/known/emptypb"
+	"github.com/seeflood/protobuf-go/types/known/structpb"
+	"github.com/seeflood/protobuf-go/types/known/timestamppb"
+	"github.com/seeflood/protobuf-go/types/known/wrapperspb"
 )
 
 func TestRoundTrip(t *testing.T) {

@@ -11,14 +11,14 @@ import (
 	"reflect"
 	"unicode/utf8"
 
-	"google.golang.org/protobuf/encoding/protowire"
-	"google.golang.org/protobuf/internal/encoding/messageset"
-	"google.golang.org/protobuf/internal/flags"
-	"google.golang.org/protobuf/internal/genid"
-	"google.golang.org/protobuf/internal/strs"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/reflect/protoregistry"
-	"google.golang.org/protobuf/runtime/protoiface"
+	"github.com/seeflood/protobuf-go/encoding/protowire"
+	"github.com/seeflood/protobuf-go/internal/encoding/messageset"
+	"github.com/seeflood/protobuf-go/internal/flags"
+	"github.com/seeflood/protobuf-go/internal/genid"
+	"github.com/seeflood/protobuf-go/internal/strs"
+	"github.com/seeflood/protobuf-go/reflect/protoreflect"
+	"github.com/seeflood/protobuf-go/reflect/protoregistry"
+	"github.com/seeflood/protobuf-go/runtime/protoiface"
 )
 
 // ValidationStatus is the result of validating the wire-format encoding of a message.

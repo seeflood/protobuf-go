@@ -10,13 +10,13 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"google.golang.org/protobuf/proto"
-	"google.golang.org/protobuf/reflect/protodesc"
-	"google.golang.org/protobuf/reflect/protoreflect"
+	"github.com/seeflood/protobuf-go/proto"
+	"github.com/seeflood/protobuf-go/reflect/protodesc"
+	"github.com/seeflood/protobuf-go/reflect/protoreflect"
 
-	testpb "google.golang.org/protobuf/internal/testprotos/test"
-	_ "google.golang.org/protobuf/internal/testprotos/test/weak1"
-	"google.golang.org/protobuf/types/descriptorpb"
+	testpb "github.com/seeflood/protobuf-go/internal/testprotos/test"
+	_ "github.com/seeflood/protobuf-go/internal/testprotos/test/weak1"
+	"github.com/seeflood/protobuf-go/types/descriptorpb"
 )
 
 var testFile = new(testpb.TestAllTypes).ProtoReflect().Descriptor().ParentFile()

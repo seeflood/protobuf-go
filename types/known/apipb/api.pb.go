@@ -34,10 +34,10 @@
 package apipb
 
 import (
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
-	sourcecontextpb "google.golang.org/protobuf/types/known/sourcecontextpb"
-	typepb "google.golang.org/protobuf/types/known/typepb"
+	protoreflect "github.com/seeflood/protobuf-go/reflect/protoreflect"
+	protoimpl "github.com/seeflood/protobuf-go/runtime/protoimpl"
+	sourcecontextpb "github.com/seeflood/protobuf-go/types/known/sourcecontextpb"
+	typepb "github.com/seeflood/protobuf-go/types/known/typepb"
 	reflect "reflect"
 	sync "sync"
 )

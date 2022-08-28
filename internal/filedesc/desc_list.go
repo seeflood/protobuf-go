@@ -10,13 +10,13 @@ import (
 	"sort"
 	"sync"
 
-	"google.golang.org/protobuf/internal/genid"
+	"github.com/seeflood/protobuf-go/internal/genid"
 
-	"google.golang.org/protobuf/encoding/protowire"
-	"google.golang.org/protobuf/internal/descfmt"
-	"google.golang.org/protobuf/internal/errors"
-	"google.golang.org/protobuf/internal/pragma"
-	"google.golang.org/protobuf/reflect/protoreflect"
+	"github.com/seeflood/protobuf-go/encoding/protowire"
+	"github.com/seeflood/protobuf-go/internal/descfmt"
+	"github.com/seeflood/protobuf-go/internal/errors"
+	"github.com/seeflood/protobuf-go/internal/pragma"
+	"github.com/seeflood/protobuf-go/reflect/protoreflect"
 )
 
 type FileImports []protoreflect.FileImport

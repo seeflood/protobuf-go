@@ -7,7 +7,7 @@ package impl
 import (
 	"reflect"
 
-	"google.golang.org/protobuf/reflect/protoreflect"
+	"github.com/seeflood/protobuf-go/reflect/protoreflect"
 )
 
 type EnumInfo struct {

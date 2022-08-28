@@ -21,8 +21,8 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"google.golang.org/protobuf/encoding/protowire"
-	"google.golang.org/protobuf/reflect/protoreflect"
+	"github.com/seeflood/protobuf-go/encoding/protowire"
+	"github.com/seeflood/protobuf-go/reflect/protoreflect"
 )
 
 // Number is the field number; aliased from the protowire package for convenience.

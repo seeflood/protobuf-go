@@ -5,12 +5,12 @@
 package proto
 
 import (
-	"google.golang.org/protobuf/encoding/protowire"
-	"google.golang.org/protobuf/internal/encoding/messageset"
-	"google.golang.org/protobuf/internal/order"
-	"google.golang.org/protobuf/internal/pragma"
-	"google.golang.org/protobuf/reflect/protoreflect"
-	"google.golang.org/protobuf/runtime/protoiface"
+	"github.com/seeflood/protobuf-go/encoding/protowire"
+	"github.com/seeflood/protobuf-go/internal/encoding/messageset"
+	"github.com/seeflood/protobuf-go/internal/order"
+	"github.com/seeflood/protobuf-go/internal/pragma"
+	"github.com/seeflood/protobuf-go/reflect/protoreflect"
+	"github.com/seeflood/protobuf-go/runtime/protoiface"
 )
 
 // MarshalOptions configures the marshaler.

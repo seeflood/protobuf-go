@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"google.golang.org/protobuf/reflect/protoreflect"
+	"github.com/seeflood/protobuf-go/reflect/protoreflect"
 )
 
 // unwrapper unwraps the value to the underlying value.

@@ -10,7 +10,7 @@ package strs
 import (
 	"unsafe"
 
-	"google.golang.org/protobuf/reflect/protoreflect"
+	"github.com/seeflood/protobuf-go/reflect/protoreflect"
 )
 
 type (
